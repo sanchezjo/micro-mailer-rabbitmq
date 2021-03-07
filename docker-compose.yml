@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  mail:
+      container_name: micro-mailer-rabbitmq-rabbit
+      build: .
+
